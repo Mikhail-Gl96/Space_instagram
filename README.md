@@ -23,7 +23,9 @@
    `python3 main.py`<br>
    `python main.py`<br>
    `python3.6 main.py`<br>
-  
+ 
+ Instagram: https://www.instagram.com/deepspace_bot/
+ 
 ### Цель проекта
 
 Код написан в образовательных целях на онлайн-курсе для веб-разработчиков [dvmn.org](https://dvmn.org/).
