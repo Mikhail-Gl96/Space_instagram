@@ -33,8 +33,8 @@ if __name__ == "__main__":
     LOGIN = os.getenv('LOGIN')
     PASSWORD_INSTAGRAM = os.getenv('PASSWORD_INSTAGRAM')
 
-    # bot = Bot()
-    # bot.login(username=LOGIN, password=PASSWORD_INSTAGRAM)
+    bot = Bot()
+    bot.login(username=LOGIN, password=PASSWORD_INSTAGRAM)
 
     dir_name = 'images'
 
