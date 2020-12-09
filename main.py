@@ -46,5 +46,4 @@ if __name__ == "__main__":
     paths = get_all_image_paths(images_path=images_path)
 
     for path in paths:
-        print(path)
-        # upload_photo_to_instagram(bot_instagram=bot, path_photo=path)
+        upload_photo_to_instagram(bot_instagram=bot, path_photo=path)
