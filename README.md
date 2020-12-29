@@ -16,7 +16,7 @@
    `python3.6 -m pip install -r requirements.txt`
 4. Создайте файл .env
 5. Запишите в файл .env переменные:
-    `LOGIN=ваш_логин_от_инстаграмм_аккаунта`<br>
+    `LOGIN_INSTAGRAM=ваш_логин_от_инстаграмм_аккаунта`<br>
     `PASSWORD_INSTAGRAM=ваш_пароль_от_инстаграмм_аккаунта`<br>
 6. Запустите бота<br>
    Возможные команды для запуска(из консоли, из папки с ботом):<br>
@@ -24,8 +24,8 @@
    `python main.py`<br>
    `python3.6 main.py`<br>
  
- Instagram: https://www.instagram.com/deepspace_bot/
- 
+Instagram: https://www.instagram.com/deep_spacebot/
+
 ### Цель проекта
 
 Код написан в образовательных целях на онлайн-курсе для веб-разработчиков [dvmn.org](https://dvmn.org/).

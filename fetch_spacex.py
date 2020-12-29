@@ -7,13 +7,10 @@ from utils import load_img_pillow
 
 def get_spacex_images_urls():
     url = "https://api.spacexdata.com/v4/launches/latest"
-    try:
-        response = requests.get(url=url)
-        response.raise_for_status()
-        links = response.json()['links']['flickr']['original']
-        return links
-    except Exception as e:
-        print(f'Error: {e}')
+    response = requests.get(url=url)
+    response.raise_for_status()
+    links = response.json()['links']['flickr']['original']
+    return links
 
 
 def fetch_spacex_last_launch(path):
